@@ -32,10 +32,12 @@ import pandas as 🐼
 
 ## Installation
 
-🐍 is available on [PyPI](https://pypi.org/project/pythonji-2). Install it with `pip`:
+🐍 is available on [PyPI][pypi] and [conda-forge][conda-forge]. Install it with `pip` or `conda` or `pixi`:
 
 ```bash
-python -m pip install pythonji
+pip install pythonji-2
+conda install -c conda-forge pythonji-2
+pixi add pythonji-2
 ```
 
 ## Using 🐍
