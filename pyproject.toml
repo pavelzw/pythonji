@@ -8,7 +8,7 @@ description = "🐍 - Write Python with Emojis"
 version = "0.1.1"
 readme = "README.md"
 license = {text = "MIT"}
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 authors = [
     { name = "Geir Arne Hjelle", email = "geirarne@gmail.com" },
     { name = "Pavel Zwerschke", email = "pavelzw@gmail.com" }
@@ -29,8 +29,13 @@ dependencies = [
 Homepage = "https://github.com/pavelzw/pythonji-2"
 
 [tool.hatch.build.targets.sdist]
-include = [
-    "/pythonji",
+only-include = [
+    "pythonji",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [
+    "pythonji",
 ]
 
 [tool.ruff]
