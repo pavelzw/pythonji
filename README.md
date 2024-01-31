@@ -1,5 +1,8 @@
 # 🐍 - Write Python with Emojis
 
+> [!NOTE]
+> This is a fork of [gahjelle/pythonji](https://github.com/gahjelle/pythonji) because it's not maintained anymore.
+
 Write Python code using emojis 🐍
 
 ![Example of running 🐍](pythonji.gif)
@@ -12,24 +15,21 @@ Write Python code using emojis 🐍
 import pandas as 🐼
 ```
 
-
 ## Installation
 
 🐍 is available on [PyPI](https://pypi.org/project/pythonji). Install it with `pip`:
 
+```bash
+python -m pip install pythonji
 ```
-$ python -m pip install pythonji
-```
-
 
 ## Using 🐍
 
 🐍 installs as `pythonji`. 🐍 code files have the suffix `.🐍`. You can run a 🐍 code file as follows:
 
-```console
-$ pythonji file.🐍
+```bash
+pythonji file.🐍
 ```
-
 
 ## Example
 
@@ -57,7 +57,7 @@ print(🔤 * 🔢)
 
 You can run the code as follows:
 
-```console
+```bash
 $ pythonji 🐼.🐍 
         🏷  💯
 😀           
@@ -66,7 +66,6 @@ $ pythonji 🐼.🐍
 🦁    Lion  4
  Pythonji 🐼 🐍 🦁 Pythonji 🐼 🐍 🦁 Pythonji 🐼 🐍 🦁 Pythonji 🐼 🐍 🦁
 ```
-
 
 ## Limitations
 
