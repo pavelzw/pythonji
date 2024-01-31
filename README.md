@@ -1,5 +1,20 @@
 # 🐍 - Write Python with Emojis
 
+![License][license-badge]
+[![Build Status][build-badge]][build]
+[![conda-forge][conda-forge-badge]][conda-forge]
+[![pypi-version][pypi-badge]][pypi]
+[![python-version][python-version-badge]][pypi]
+
+[license-badge]: https://img.shields.io/github/license/pavelzw/pythonji-2?style=flat-square
+[build-badge]: https://img.shields.io/github/actions/workflow/status/pavelzw/pythonji-2/ci.yml?style=flat-square&branch=main
+[build]: https://github.com/pavelzw/pythonji-2/actions/
+[conda-forge]: https://prefix.dev/channels/conda-forge/packages/pythonji-2
+[conda-forge-badge]: https://img.shields.io/conda/pn/conda-forge/pythonji-2?style=flat-square&logoColor=white&logo=conda-forge
+[pypi]: https://pypi.org/project/pythonji-2
+[pypi-badge]: https://img.shields.io/pypi/v/pythonji-2.svg?style=flat-square&logo=pypi&logoColor=white
+[python-version-badge]: https://img.shields.io/pypi/pyversions/pythonji-2?style=flat-square&logoColor=white&logo=python
+
 > [!NOTE]
 > This is a fork of [gahjelle/pythonji](https://github.com/gahjelle/pythonji) because it's not maintained anymore.
 
@@ -17,7 +32,7 @@ import pandas as 🐼
 
 ## Installation
 
-🐍 is available on [PyPI](https://pypi.org/project/pythonji). Install it with `pip`:
+🐍 is available on [PyPI](https://pypi.org/project/pythonji-2). Install it with `pip`:
 
 ```bash
 python -m pip install pythonji
