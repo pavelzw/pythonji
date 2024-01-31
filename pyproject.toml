@@ -28,6 +28,9 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/pavelzw/pythonji-2"
 
+[project.scripts]
+pythonji = "pythonji.__main__:main"
+
 [tool.hatch.build.targets.sdist]
 only-include = [
     "pythonji",
